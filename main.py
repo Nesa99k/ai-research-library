@@ -1,4 +1,3 @@
-from models.document import Document
 from managers.knowledge_base_manager import KnowledgeBaseManager
 from loaders.json_loader import JsonLoader
 

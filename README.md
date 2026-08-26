@@ -1,6 +1,6 @@
 # AI Research Library
 
-A Python-based AI research paper management system built using Object-Oriented Programming and Functional Programming concepts.
+A Python-based AI research paper management system built using Object-Oriented Programming and functional-style programming concepts.
 
 The project loads research papers from the arXiv API, stores them in JSON format, and provides search, filtering, sorting, and statistics features.
 
@@ -17,7 +17,7 @@ The project loads research papers from the arXiv API, stores them in JSON format
 - Filter recent papers
 - Display project statistics
 - Generator-based iteration
-- Functional Programming using map(), filter(), lambda(), and sorted()
+- Functional-style programming using map(), filter(), lambda, and sorted()
 
 ---
 
@@ -57,6 +57,12 @@ ai_knowledge_base/
 ├── requirements.txt
 └── .gitignore
 ```
+
+---
+
+## System Architecture & Workflow
+
+![System Architecture](docs/architecture.svg)
 
 ---
 
@@ -124,3 +130,7 @@ This project demonstrates practical usage of:
 - Keyword Search
 - Command Line Interface (CLI)
 - SQLite Database Support
+
+## Author
+
+Nesa Karimi
